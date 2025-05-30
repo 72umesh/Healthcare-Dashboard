@@ -1,0 +1,83 @@
+.calendarView {
+  background-color: var(--color-lightblue);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.calendar_header {
+  margin: 0.5rem 1.5rem 0.8rem;
+}
+.calendar_header > h3 {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow_container {
+  display: flex;
+  gap: 1.5rem;
+}
+.calendar_header > h3 {
+  color: var(--color-darkblue);
+}
+
+.calendar_grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.day_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  background-color: var(--color-lightdarkblue);
+}
+.day_column > * {
+  margin: 0.3rem 0;
+}
+.calendar_appointment {
+  display: flex;
+  gap: 2rem;
+  margin: 0 1rem;
+}
+.calendar_appointment > :nth-child(1) {
+  background-color: var(--color-darkblue);
+  color: #fff;
+}
+.calendar_appointment > :nth-child(2) {
+  background-color: var(--color-lightdarkblue);
+}
+@media (max-width: 1150px) {
+  .calendar_grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .day_column {
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 50%;
+    padding: 0.5rem 1rem;
+  }
+  .calendar_appointment {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .calendar_grid {
+    flex-direction: row;
+    margin: 0 1rem;
+  }
+  .day_column {
+    flex-direction: column;
+    padding: 010px;
+  }
+  .calendar_appointment {
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+}

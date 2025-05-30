@@ -1,0 +1,38 @@
+.activityFeed_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-color: var(--color-lightblue);
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.activityFeed_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+}
+.activityFeed_header > p {
+  color: var(--color-lightgrey);
+}
+.activityFeed_bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 8px;
+  margin: 0 2rem;
+}
+.bars {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 4rem;
+  height: 80px;
+}
+.bar {
+  width: 6px;
+  height: 100%;
+  background-color: var(--color-lightcyan);
+  border-radius: 5px;
+}

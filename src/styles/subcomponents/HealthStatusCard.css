@@ -1,0 +1,35 @@
+.healthStatusCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.healthStatus_Detail {
+  align-self: flex-end;
+  margin: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.8rem;
+}
+
+.statusCard_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90%;
+
+  margin: 0 1.5rem;
+}
+@media (max-width: 1100px) {
+  .statusCard_container > :nth-child(n) {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .statusCard_container {
+    flex-direction: row;
+  }
+}

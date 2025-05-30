@@ -1,0 +1,12 @@
+.appointmentCard {
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.appointmentCard_header > h3 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.appointment_time {
+  font-weight: 600;
+}

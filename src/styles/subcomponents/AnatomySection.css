@@ -1,0 +1,47 @@
+.anatomySection {
+  display: flex;
+  flex-direction: column;
+}
+
+.anatomySection h1 {
+  margin: 0.8rem 1rem 0.2rem;
+  color: var(--color-darkblue);
+}
+.anatomySection_container {
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 15px;
+  margin: 0 1rem;
+}
+.human_body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  border-radius: 15px;
+  background-color: var(--color-lightblue);
+}
+.human_body img {
+  object-fit: cover;
+}
+.healthy_heart,
+.healthy_leg {
+  position: absolute;
+  padding: 3px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.healthy_heart {
+  top: 6rem;
+  right: 0;
+  background-color: var(--color-darkblue);
+  color: #fff;
+}
+.healthy_leg {
+  bottom: 6.5rem;
+  left: 0;
+  background-color: var(--color-lightcyan);
+}

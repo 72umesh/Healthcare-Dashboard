@@ -1,0 +1,38 @@
+.sideBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  color: var(--color-lightgrey);
+  background-color: var(--color-lightblue);
+}
+.navbar {
+  height: 100%;
+  width: 70%;
+}
+
+.sideBar_title_general {
+  align-self: flex-start;
+  margin: 15px 0;
+}
+.navbar_general .navigation_links:first-child {
+  color: var(--color-darkblue);
+}
+.navbar_general {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navigation_links {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+
+  gap: 1rem;
+  padding: 5px;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.link_logo {
+  font-size: 1.2rem;
+}
