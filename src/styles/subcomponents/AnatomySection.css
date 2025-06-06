@@ -45,3 +45,16 @@
   left: 0;
   background-color: var(--color-lightcyan);
 }
+
+@media (max-width: 600px) {
+  .healthy_heart,
+  .healthy_leg {
+    padding: 1.5px 10px;
+  }
+  .healthy_heart {
+    top: 10rem;
+  }
+  .healthy_leg {
+    bottom: 15rem;
+  }
+}

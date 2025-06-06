@@ -25,6 +25,7 @@
 }
 .bars {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   width: 4rem;
@@ -35,4 +36,12 @@
   height: 100%;
   background-color: var(--color-lightcyan);
   border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .activityFeed_bars {
+    flex-wrap: wrap;
+  }
+  .activityFeed {
+    margin-top: 1rem;
+  }
 }

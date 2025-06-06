@@ -74,10 +74,23 @@
   }
   .day_column {
     flex-direction: column;
-    padding: 010px;
+    padding: 10px;
   }
   .calendar_appointment {
     flex-direction: row;
     margin-top: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .calendar_grid {
+    flex-direction: column;
+  }
+  .day_column {
+    flex-direction: row;
+    width: 80%;
+    text-align: center;
+  }
+  .calendar_appointment {
+    flex-direction: column;
   }
 }
